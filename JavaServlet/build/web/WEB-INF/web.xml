@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <!--Demo Servlet-->
+    
+    <servlet>
+        <servlet-name>Servlet123</servlet-name>
+        <servlet-class>Servlet1</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+        <servlet-name>Servlet123</servlet-name>
+        <url-pattern>/about</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <!-- Http request and response -->
+    <servlet>
+        <servlet-name>RequestAndResponse</servlet-name>
+        <servlet-class>ServletWithHTTPServlet.ServletFirst</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+        <servlet-name>RequestAndResponse</servlet-name>
+        <url-pattern>/names</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>
