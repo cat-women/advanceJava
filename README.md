@@ -1,5 +1,5 @@
-# advanceJava
-This repo contains all the thigng I learnt in Advance java of BCA sith sem. 
+# Advance Java
+This repo contains all the things I learnt in Advance java of BCA sixth sem. 
 
 ## Topic 
 - Core java 
