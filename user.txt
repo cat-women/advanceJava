@@ -1,0 +1,5 @@
+name:	 q
+ email: 	qq@gmail.com
+ contact: 	12
+ pwd: 	12
+ dob: 	12

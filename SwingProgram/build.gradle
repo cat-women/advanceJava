@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+mainClassName = 'SwingProgram.Main'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+     compile 'mysql:mysql-connector-java:5.1.+'
+
+
+}
+

@@ -1,0 +1,10 @@
+
+1. wap to print hello world
+2. wap to add two number 
+3. say hellow to username where username should be taken from user
+4. take two input from user and print their sum 
+5. check if anumber is even or odd take input from use
+6. take 5 input from user and store them in array. 
+
+try catch question 
+create a CustomException and handle it using tr catch block. 

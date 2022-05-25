@@ -1,32 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app>
-    <!--Demo Servlet-->
-    
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <!-- The rest of your web.xml content -->
     <servlet>
         <servlet-name>Servlet123</servlet-name>
         <servlet-class>Servlet1</servlet-class>
     </servlet>
-    
-    
     <servlet-mapping>
         <servlet-name>Servlet123</servlet-name>
         <url-pattern>/about</url-pattern>
     </servlet-mapping>
-    
-    
-    
-    
     <!-- Http request and response -->
     <servlet>
         <servlet-name>RequestAndResponse</servlet-name>
-        <servlet-class>ServletWithHTTPServlet.ServletFirst</servlet-class>
+        <servlet-class>.ServletFirst</servlet-class>
     </servlet>
-    
-    
     <servlet-mapping>
         <servlet-name>RequestAndResponse</servlet-name>
-        <url-pattern>/names</url-pattern>
+        <url-pattern>/register</url-pattern>
     </servlet-mapping>
-    
-    
+    <!-- Cokkie testing -->
+    <servlet>
+        <servlet-name>CookieHandlingEx</servlet-name>
+        <servlet-class>Cookiexample</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieHandlingEx</servlet-name>
+        <url-pattern>/form</url-pattern>
+    </servlet-mapping>
+    <!-- File handling  -->
+    <servlet>
+        <servlet-name>file</servlet-name>
+        <servlet-class>FileHandling</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>file</servlet-name>
+        <url-pattern>/file</url-pattern>
+    </servlet-mapping>
 </web-app>

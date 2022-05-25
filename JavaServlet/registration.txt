@@ -1,4 +1,7 @@
 Name : fmlmf
   Email: g@gmail.com
  phone no :233434
- password: mf
+ password: mfName : fdjf
+  Email: e@gmail.com
+ phone no :weqeq
+ password: 12321

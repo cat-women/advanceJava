@@ -9,13 +9,14 @@
         <title>Index page </title>
     </head>
     <body>
+        <a href="Registration.jsp">test cookie here</a>
         <div class="justify-content-center">
             <h1>Registration </h1>
         </div>
 
         <div  class="justify-content-center d-flex border mb-3">
 
-            <form action="http://localhost:8080/JavaServlet/names" method="post" style="width: 50%;">
+            <form action="http://localhost:8080/file" method="post" style="width: 50%;">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Name</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" required>
@@ -32,6 +33,10 @@
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Phone Number</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="contact" required>
+                </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">DOB</label>
+                    <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="dob" required>
                 </div>
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1" name="checkme" >
